@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    /* background: rgba(250, 250, 250, 0.75); */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* outline: 2px solid red !important; */
+}
+
+body{
+    background: rgba(250, 250, 250, 0.75);
+
+}
+
+.top--header{
+    width: 100%;
+    height: 40px;
+    background: #D5EAFF;
+    overflow: hidden;
+}
+
+.top--text{
+    position: absolute;
+    height: 44px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center;
+    color: #0063CC;
+}
+
+.logoimg{
+    width: 150px;
+}
+
+.icons{
+    height: 20px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.topnav{
+    height: 165px;
+    padding-top: 44px;
+    border: #E6E6E6;
+    border-bottom: inset;
+    border-bottom-width: thin;
+}
+
+.topnav__icons {
+    text-align: center;
+    width: 100%;
+    height: 112px;
+    padding-top: 30px;
+}
+
+.user_icon{
+    position: relative;
+    bottom: 25;
+    margin-left: 1200px;
+    padding-bottom: 58px;
+    opacity: 0.7;
+}
+
+.bagicon{
+    position: relative;
+    bottom: 25;
+    margin-left: 29px;
+    opacity: 0.6;
+    padding-bottom: 58px;
+}
+
+hr{
+    color: #E6E6E6;
+}
+
+.container{
+    width: 1504px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.icons img{
+    bottom: 20px;
+}
+
+.brushes{
+    display: flex;
+    height: 134px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.brushes--size{
+    padding: 21px 24px 24px 24px;
+}
+
+.brushes--size-s {
+    padding: 21px 24px 7px 24px;
+}
+
+.brushes__text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.new{
+    color: #2CAAE2;
+    font-size: 10px;
+    padding-bottom: 2px;
+}
+
+.golight{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    padding-bottom: 16px;
+}
+
+.golight__text{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.text--color1{
+    color: white;
+}
+
+.text--color2{
+    color: black;
+}
+
+.padding1{
+    padding-bottom: 8px;
+}
+
+.padding2{
+    padding-bottom: 40px;
+}
+
+.btn1{
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 48px;
+}
+
+.btn2{
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 160px;
+    height: 40px;
+    background: black;
+    border-radius: 48px;
+}
+
+.btn1:hover {background-color: black}
+
+.btn2:hover {background-color: white}
+
+.btn-text1:hover {color:white}
+
+.btn-text2:hover {color:black}
+
+.btn-text1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #282829;
+}
+
+.btn-text2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.marg{
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding3{
+    padding-bottom: 56px;
+}
+
+.font{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.section3{
+    height: 976px;
+    margin-top: 8px;
+}
+
+.section2{
+    height: 134px;
+}
+
+.section4{
+    height: 976px;
+    margin-top: 32px;
+}
+
+.section5{
+    height: 40px;
+    margin-top: 75px;
+}
+.font2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.shop{
+    display: flex;
+    margin-top: 24px;
+}
+
+.section6{
+    height: 800px;
+    margin-top: 24px;
+}
+
+.shop_text{
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.img{
+    padding-bottom: 16px;
+}
+
+.frame{
+    padding-bottom: 32px;
+}
+
+.font-l{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+hr{
+    margin-bottom: 16px;
+    border: 1px solid #E6E6E6;
+}
+
+.btn{
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 160px;
+    height: 40px;
+    background: #2CAAE2;
+    border-radius: 48px;
+}
+
+.marg1{
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section7{
+    height: 664px;
+}
+
+.section8{
+    height: 664px;
+    margin-top: 32px;
+}
+
+.align{
+    text-align: center;
+}
+
+.section9{
+    height: 664px;
+    margin-top: 24px;
+    margin-bottom: 75px;
+}
+
+.section10{
+    height: 312px;
+    margin-bottom: 75px;
+}
+
+.font3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.font4{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 24px;
+}
+
+.container2{
+    width: 1504px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.bottom{
+    color: #86868B;
+    padding-top: 32px;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height:296px;
+    background: #282829;
+}
+
+.foot-flex{
+    display: flex;
+    width: 100%;
+}
+
+.foot-style{
+    color: white;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.font-xs{
+    font-size: 16px; 
+    font-weight:400;
+}
+
+.foot-space{
+    margin-right:80px ; 
+    margin-top: 32px;
+}
+
+.foot-margin{
+    margin-left: 158px;
+}
