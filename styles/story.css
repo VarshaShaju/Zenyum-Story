@@ -254,6 +254,7 @@ h1{
 .shop{
     display: flex;
     margin-top: 24px;
+    text-align: center;
 }
 
 .section6{
