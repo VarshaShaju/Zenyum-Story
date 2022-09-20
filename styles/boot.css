@@ -78,13 +78,14 @@ hr{
 }
 
 .container{
-    width: 1504px;
+    max-width: 1504px ;
     margin: 0 auto;
     height: 100%;
     position: relative;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
 
 }
 
@@ -261,7 +262,7 @@ h1{
 
 .section6{
     height: 800px;
-    margin-top: 24px;
+    margin-top: 114px;
 }
 
 .shop__text{
@@ -289,7 +290,7 @@ hr{
     border: 1px solid #E6E6E6;
 }
 
-.btn{
+.btn3{
     flex-direction: row;
     justify-content: center;
     padding: 8px 24px;
@@ -358,7 +359,7 @@ hr{
 .footer{
     position: relative;
     width: 100%;
-    height:296px;
+    height:306px;
     background: #282829;
 }
 
@@ -482,10 +483,9 @@ hr{
     }
 
     .icons{
-        height: 20px;
         position: relative;
-        bottom: 20;
         margin-left: 15px;
+        bottom: 23px;
     }
 
     #vec{
@@ -628,7 +628,7 @@ hr{
     }
 
     .section6 {
-        height: 625px;
+        height: 750px;
         margin-top: 16px;
     }
 
@@ -662,7 +662,7 @@ hr{
     }
 
     .section10 {
-        height: 579px;
+        height: 679px;
         width: 343px;
         margin-bottom: 75px;
         padding-left: 16px;
@@ -683,7 +683,7 @@ hr{
     .foot-flex{
         flex-wrap: wrap;
         margin-left: 18px;
-        width: 340;
+        width: auto;
     }
 
     .foot-margin{
@@ -706,4 +706,10 @@ hr{
         line-height: 24px;
     }
 
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1504px !important;
+    }
 }
